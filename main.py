@@ -33,3 +33,11 @@ if starting_unit == 'Foot' and converting_to == 'Yard':
     print('Yard(s):', number_1 / 3)
 if starting_unit == 'Foot' and converting_to == 'Mile':
     print('Mile(s):', number_1 / 5280)
+
+# Starting point: Yard
+if starting_unit == 'Yard' and converting_to == 'Inch':
+    print('Inches:', number_1 * 12)
+if starting_unit == 'Yard' and converting_to == 'Foot':
+    print('Foot/Feet:', number_1 * 3)
+if starting_unit == 'Yard' and converting_to == 'Mile':
+    print('Mile(s):', number_1 / 1760)

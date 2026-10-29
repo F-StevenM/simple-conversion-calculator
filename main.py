@@ -10,7 +10,7 @@ print('> Mile')
 
 print(' ')
 
-print('> Enter the units of measurments exactly as they are printed')
+print('> Enter the units of measurments exactly as they are printed (Case sensitive)')
 starting_unit = input('> Enter a unit of measurement: ')
 converting_to = input('> Converting to: ')
 
@@ -41,3 +41,11 @@ if starting_unit == 'Yard' and converting_to == 'Foot':
     print('Foot/Feet:', number_1 * 3)
 if starting_unit == 'Yard' and converting_to == 'Mile':
     print('Mile(s):', number_1 / 1760)
+
+# Starting point: Mile
+if starting_unit == 'Mile' and converting_to == 'Inch':
+    print('Inches:', number_1 * 5280 * 12)
+if starting_unit == 'Mile' and converting_to == 'Foot':
+    print('Foot/Feet:', number_1 * 5280)
+if starting_unit == 'Mile' and converting_to == 'Yard':
+    print('Yard(s):', number_1 *5280 / 3)

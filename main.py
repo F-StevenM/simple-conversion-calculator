@@ -10,6 +10,7 @@ print('> Mile')
 
 print(' ')
 
+print('> Enter the units of measurments exactly as they are printed')
 starting_unit = input('> Enter a unit of measurement: ')
 converting_to = input('> Converting to: ')
 
@@ -17,43 +18,10 @@ print(' ')
 
 number_1 = int(input('> Enter your number: '))
 
+# Starting point
 if starting_unit == 'Inch' and converting_to == 'Foot':
-    print(number_1 / 12)
-if starting_unit == 'Inch'and converting_to == 'Yard':
-    print(number_1 / 12 / 3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#print(' ')
-
-#print('> Ounce')
-#print('> Pound')
-#print('> Kilogram')
-
-#print(' ')
-
-#print('> Fluid Ounce')
-#print('> Cup')
-#print('> Quart')
-#print('> Gallon')
-
-#print(' ')
-
-#print('> Celsius')
-#print('> Fahrenheit')
+    print('Foot/Feet:', number_1 / 12)
+if starting_unit == 'Inch' and converting_to == 'Yard':
+    print('Yard(s):', number_1 / 12 / 3)
+if starting_unit == 'Inch' and converting_to == 'Mile':
+    print('Mile(s):', number_1 / 12 / 5280)

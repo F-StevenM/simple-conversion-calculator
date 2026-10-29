@@ -17,13 +17,27 @@ print(' ')
 
 number_1 = int(input('> Enter your number: '))
 
-inch_to_foot = number_1 / 12
-inch_to_yard = number_1 / 12 / 3
+if starting_unit == 'Inch' and converting_to == 'Foot':
+    print(number_1 / 12)
+if starting_unit == 'Inch'and converting_to == 'Yard':
+    print(number_1 / 12 / 3)
 
-if starting_unit == 'Inch' or 'inch' and converting_to == 'Foot' or 'foot':
-    print(inch_to_foot)
-if starting_unit == 'Inch' or 'inch' and converting_to == 'Yard' or 'yard':
-    print(inch_to_yard)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #print(' ')
